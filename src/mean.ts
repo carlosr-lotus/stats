@@ -16,7 +16,3 @@ export function mean(arr: number[]): number {
 
     return Number(mean.toFixed(2))
 }
-
-const arrTest = [1, 2, 3, 4, 5]
-const res = mean(arrTest)
-console.log('mean: ' + res)
