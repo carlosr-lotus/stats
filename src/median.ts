@@ -18,7 +18,7 @@ export function median(arr: number[]): number {
     if (arr.length % 2 === 0) {
         const index = arr.length / 2
         const median = (arr[index] + arr[index - 1]) / 2
-        return Number(median)
+        return median
     }  
     
     return Number(arr.at(arr.length / 2)) 
