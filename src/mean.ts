@@ -1,5 +1,8 @@
-// MEAN function
-// Function to return the mean of an array of numbers
+/**
+ * Return the mean of an array of numbers. 
+ * @param arr - The array of numbers to calculate mean.
+ * @returns The mean value.
+ */
 
 export function mean(arr: number[]): number {
     if (arr.length === 0)
