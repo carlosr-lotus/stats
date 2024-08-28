@@ -14,5 +14,5 @@ export function mean(arr: number[]): number {
     const sum = arr.reduce((acc, cv) => acc + cv)
     const mean = sum / arr.length 
 
-    return Number(mean.toFixed(2))
+    return Number(mean)
 }
