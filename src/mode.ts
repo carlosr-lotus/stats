@@ -1,3 +1,8 @@
+/**
+ * Returns the unimodal result for a mode operation.
+ * @param arr - The array of numbers to calculate mode.
+ * @returns The unimodal result.
+ */
 
 function mode(arr: number[]): number {
     const keys: {[index: string]: number} = arr.reduce((acc, cv) => (
